@@ -1,0 +1,337 @@
+{
+    "tienda": {
+      "nombre": "Mi Tienda Online",
+      "categorias": [
+        {
+          "id": 1,
+          "nombre": "Electrónica",
+          "productos": [
+            {
+              "id": 101,
+              "nombre": "Smartphone",
+              "precio": 999.99,
+              "descripcion": "El último smartphone del mercado.",
+              "caracteristicas": {
+                "pantalla": "6.5 pulgadas",
+                "camara": "48 MP",
+                "bateria": "4500 mAh"
+              },
+              "imagenes": ["/nokia.png", "/nokia2.png"],
+              "inventario": 10
+            },
+            {
+              "id": 102,
+              "nombre": "Tablet",
+              "precio": 999.99,
+              "descripcion": "La última Tablet del mercado.",
+              "caracteristicas": {
+                "pantalla": "14 pulgadas",
+                "camara": "48 MP",
+                "bateria": "5000 mAh"
+              },
+              "imagenes": ["/tablet.png", "/tablet2.png"],
+              "inventario": 7
+            },
+            {
+              "id": 103,
+              "nombre": "Laptop",
+              "precio": 1500.00,
+              "descripcion": "Laptop ultradelgada con gran rendimiento.",
+              "caracteristicas": {
+                "pantalla": "15.6 pulgadas",
+                "camara": "HD 720p",
+                "bateria": "6000 mAh"
+              },
+              "imagenes": ["/laptop.png", "/laptop2.png"],
+              "inventario": 5
+            },
+            {
+              "id": 104,
+              "nombre": "Auriculares Bluetooth",
+              "precio": 199.99,
+              "descripcion": "Auriculares inalámbricos con cancelación de ruido.",
+              "caracteristicas": {
+                "conectividad": "Bluetooth 5.0",
+                "bateria": "20 horas de uso continuo"
+              },
+              "imagenes": ["/cascos.png", "/cascos2.png"],
+              "inventario": 15
+            },
+            {
+              "id": 105,
+              "nombre": "Reloj Inteligente",
+              "precio": 149.99,
+              "descripcion": "Reloj inteligente con monitoreo de salud y actividad.",
+              "caracteristicas": {
+                "pantalla": "1.5 pulgadas",
+                "conectividad": "Bluetooth",
+                "bateria": "48 horas"
+              },
+              "imagenes": ["/reloj.png", "/reloj.png"],
+              "inventario": 20
+            },
+            {
+              "id": 106,
+              "nombre": "Cámara de Seguridad",
+              "precio": 129.99,
+              "descripcion": "Cámara de seguridad con visión nocturna y detección de movimiento.",
+              "caracteristicas": {
+                "resolucion": "1080p",
+                "visionNocturna": "Sí",
+                "deteccionMovimiento": "Sí"
+              },
+              "imagenes": ["/camara.png", "/camara2.png"],
+              "inventario": 8
+            },
+            {
+              "id": 107,
+              "nombre": "Teclado Mecánico",
+              "precio": 89.99,
+              "descripcion": "Teclado mecánico con retroiluminación RGB.",
+              "caracteristicas": {
+                "tipoTeclas": "Mecánico",
+                "retroiluminacion": "RGB",
+                "conectividad": "USB"
+              },
+              "imagenes": ["/teclado.png", "/teclado2.png"],
+              "inventario": 25
+            },
+            {
+              "id": 108,
+              "nombre": "Mouse Gaming",
+              "precio": 59.99,
+              "descripcion": "Mouse ergonómico para gamers con 16000 DPI.",
+              "caracteristicas": {
+                "DPI": "16000",
+                "botones": "7 programables",
+                "conectividad": "USB"
+              },
+              "imagenes": ["/raton.png", "/raton2.png"],
+              "inventario": 30
+            },
+            {
+              "id": 109,
+              "nombre": "Altavoces Bluetooth",
+              "precio": 99.99,
+              "descripcion": "Altavoces inalámbricos con sonido estéreo de alta calidad.",
+              "caracteristicas": {
+                "conectividad": "Bluetooth 4.2",
+                "bateria": "10 horas de reproducción continua"
+              },
+              "imagenes": ["/altavoz.png", "/altavoz2.png"],
+              "inventario": 50
+            },
+            {
+              "id": 110,
+              "nombre": "Smart TV 4K",
+              "precio": 699.99,
+              "descripcion": "Smart TV de 55 pulgadas con resolución 4K y acceso a aplicaciones.",
+              "caracteristicas": {
+                "pantalla": "55 pulgadas",
+                "resolucion": "4K",
+                "sistema": "Android TV"
+              },
+              "imagenes": ["/tele.png", "/tele2.png"],
+              "inventario": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Segunda Mano",
+          "productos": [
+            {
+              "id": 201,
+              "nombre": "Smartphone Usado",
+              "precio": 349.99,
+              "descripcion": "Smartphone usado en buen estado, con pocos rasguños.",
+              "caracteristicas": {
+                "pantalla": "6.1 pulgadas",
+                "camara": "12 MP",
+                "bateria": "3000 mAh"
+              },
+              "imagenes": ["/movilroto.png", "/movilroto2.png"],
+              "inventario": 12
+            },
+            {
+              "id": 202,
+              "nombre": "Laptop Usada",
+              "precio": 499.99,
+              "descripcion": "Laptop usada en buen estado, ideal para tareas básicas.",
+              "caracteristicas": {
+                "pantalla": "14 pulgadas",
+                "camara": "720p",
+                "bateria": "4000 mAh"
+              },
+              "imagenes": ["/laptoproto.png", "/laptoproto2.png"],
+              "inventario": 8
+            },
+            {
+              "id": 203,
+              "nombre": "Monitor Usado",
+              "precio": 149.99,
+              "descripcion": "Monitor de 24 pulgadas usado, con algunas marcas de uso.",
+              "caracteristicas": {
+                "pantalla": "24 pulgadas",
+                "resolucion": "1080p",
+                "conectividad": "HDMI"
+              },
+              "imagenes": ["/monitorroto.png", "/monitorroto2.png"],
+              "inventario": 10
+            },
+            {
+              "id": 204,
+              "nombre": "Teclado Mecánico Usado",
+              "precio": 59.99,
+              "descripcion": "Teclado mecánico usado con algunas teclas desgastadas.",
+              "caracteristicas": {
+                "tipoTeclas": "Mecánico",
+                "retroiluminacion": "RGB",
+                "conectividad": "USB"
+              },
+              "imagenes": ["/tecladoroto.png", "/tecladoroto.png"],
+              "inventario": 15
+            },
+            {
+              "id": 205,
+              "nombre": "Mouse Usado",
+              "precio": 29.99,
+              "descripcion": "Mouse usado en buen estado, funciona perfectamente.",
+              "caracteristicas": {
+                "DPI": "3200",
+                "botones": "5 programables",
+                "conectividad": "USB"
+              },
+              "imagenes": ["/ratonroto.png", "/ratonroto2.png"],
+              "inventario": 20
+            },
+            {
+              "id": 206,
+              "nombre": "Smartwatch Usado",
+              "precio": 99.99,
+              "descripcion": "Reloj inteligente usado, con alguna marca de desgaste.",
+              "caracteristicas": {
+                "pantalla": "1.4 pulgadas",
+                "conectividad": "Bluetooth",
+                "bateria": "24 horas"
+              },
+              "imagenes": ["/relojroto.png", "/relojroto.png"],
+              "inventario": 5
+            },
+            {
+              "id": 207,
+              "nombre": "Cámara Digital Usada",
+              "precio": 219.99,
+              "descripcion": "Cámara digital usada, con lentes ligeramente rayados.",
+              "caracteristicas": {
+                "resolucion": "16 MP",
+                "zoom": "4x",
+                "pantalla": "3 pulgadas"
+              },
+              "imagenes": ["/camararota.png", "/camararota2.png"],
+              "inventario": 7
+            },
+            {
+              "id": 208,
+              "nombre": "Altavoces Usados",
+              "precio": 39.99,
+              "descripcion": "Altavoces usados, en buen estado de funcionamiento.",
+              "caracteristicas": {
+                "conectividad": "3.5mm jack",
+                "potencia": "10W"
+              },
+              "imagenes": ["/altavozroto.png", "/altavozroto2.png"],
+              "inventario": 18
+            },
+            {
+              "id": 209,
+              "nombre": "Consola de Videojuegos Usada",
+              "precio": 249.99,
+              "descripcion": "Consola de videojuegos usada, en excelente estado.",
+              "caracteristicas": {
+                "modelo": "PS4",
+                "capacidad": "500 GB",
+                "accesorios": "2 mandos"
+              },
+              "imagenes": ["/consolarota.png", "/consolarota2.png"],
+              "inventario": 6
+            },
+            {
+              "id": 210,
+              "nombre": "Cargador Usado",
+              "precio": 14.99,
+              "descripcion": "Cargador USB usado para smartphones.",
+              "caracteristicas": {
+                "conectividad": "USB-A",
+                "compatibilidad": "Cualquier dispositivo móvil"
+              },
+              "imagenes": ["/cargadorroto.png", "/cargadorroto.png"],
+              "inventario": 50
+            }
+          ]
+        }
+      ],
+      "usuarios": [
+        {
+          "id": 1,
+          "nombre": "Juan Pérez",
+          "email": "juanperez@example.com",
+          "direccion": {
+            "calle": "Calle Principal",
+            "numero": 123,
+            "ciudad": "Madrid",
+            "pais": "España"
+          },
+          "historialCompras": [
+            {
+              "productoId": 101,
+              "cantidad": 2,
+              "fecha": "2023-11-14"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "María López",
+          "email": "maria.lopez@example.com",
+          "direccion": {
+            "calle": "Avenida de la Paz",
+            "numero": 456,
+            "ciudad": "Barcelona",
+            "pais": "España"
+          },
+          "historialCompras": [
+            {
+              "productoId": 103,
+              "cantidad": 1,
+              "fecha": "2024-01-05"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Carlos Ruiz",
+          "email": "carlos.ruiz@example.com",
+          "direccion": {
+            "calle": "Calle San Juan",
+            "numero": 789,
+            "ciudad": "Valencia",
+            "pais": "España"
+          },
+          "historialCompras": [
+            {
+              "productoId": 106,
+              "cantidad": 1,
+              "fecha": "2023-12-12"
+            },
+            {
+              "productoId": 109,
+              "cantidad": 2,
+              "fecha": "2024-01-10"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
